@@ -17,7 +17,7 @@ def index():
     return render_template("homepage.html")
 
 
-@app.route('/aboutUs')
+@app.route('/about')
 def aboutUs():
     return render_template("aboutUs.html")
 
