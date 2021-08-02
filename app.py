@@ -17,9 +17,9 @@ def index():
     return render_template("homepage.html")
 
 
-@app.route('/secret')
-def secret():
-    return render_template("kek.html")
+@app.route('/aboutUs')
+def aboutUs():
+    return render_template("aboutUs.html")
 
 
 @app.route('/apple')
