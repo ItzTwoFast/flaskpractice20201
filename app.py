@@ -12,12 +12,12 @@ app = Flask(__name__)
 
 # -- Routes section --
 @app.route('/')
-@app.route('/homepage')
+@app.route('/homepage.html')
 def index():
     return render_template("homepage.html")
 
 
-@app.route('/about')
+@app.route('/aboutUs.html')
 def aboutUs():
     return render_template("aboutUs.html")
 
